@@ -8,7 +8,7 @@ from typing import Dict, Any, List
 
 # 1. Konfigurasi Dasar Aplikasi
 st.set_page_config(page_title="Your Personal Health Planner - Journal Based", page_icon="🏋🏽🔥💪🏼🎧")
-st.title(" Health Plan Chatbot 🏋🏽🔥💪🏼🎧")
+st.title(" Health Planner Chatbot 🏋🏽🔥💪🏼🎧")
 st.write("Plan your health goals with Journal-backed insights.")
 
 # Create a sidebar section for app settings
@@ -247,3 +247,4 @@ else:
         st.info("Asisten Anda sedang dimuat. Silakan tunggu sebentar.")
     else:
         st.info("Isi formulir 'Tell us about yourself' untuk memulai perencanaan kesehatan pribadi Anda.")
+
